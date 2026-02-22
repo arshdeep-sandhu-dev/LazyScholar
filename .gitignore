@@ -1,40 +1,23 @@
-# Node
-node_modules/
-npm-debug.log*
-yarn-error.log
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# Build outputs
-build/
-dist/
-coverage/
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
 
-# Env / secrets
-.env
-.env.local
-.env.*.local
-*.env
+# testing
+/coverage
 
-# OS / editor
+# production
+/build
+
+# misc
 .DS_Store
-Thumbs.db
-.vscode/
-.idea/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# Logs
-logs/
-*.log
-
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-env/
-venv/
-.venv/
-.python-version
-.pytest_cache/
-
-# Misc
-*.sqlite3
-*.sqlite
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
